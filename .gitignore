@@ -1,0 +1,32 @@
+
+---
+
+## 🚫 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# FastAPI / Uvicorn
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+
+# Jinja cache
+*.jinja2_cache
